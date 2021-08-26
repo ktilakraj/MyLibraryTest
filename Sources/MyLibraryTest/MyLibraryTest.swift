@@ -3,8 +3,9 @@ struct MyLibraryTest {
 }
 
 public class TestPackage {
-    let  stPackage = MyLibraryTest(text: "Hello,Welcome to the Test Package")
-    public func PRINT()  {
+ 
+    public static func PRINT()  {
+        let  stPackage = MyLibraryTest(text: "Hello,Welcome to the Test Package")
         print(stPackage.text)
     }
     
